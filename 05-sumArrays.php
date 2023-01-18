@@ -19,7 +19,8 @@ Output: -2.398
 
 */
 
-function sum(array $a): float {
+function sum(array $a): float 
+{
     return array_sum($a);
 }
 
