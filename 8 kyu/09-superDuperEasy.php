@@ -8,7 +8,7 @@ Kata Training: https://www.codewars.com/kata/55a5bfaa756cfede78000026/train/php
 
 */
 
-function problem($x): int
+function problem(int $x): int
 {
     return ctype_alpha($x) ? 'Error' : ($x * 50) + 6;
 }
