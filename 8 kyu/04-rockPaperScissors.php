@@ -10,7 +10,8 @@ Kata training: https://www.codewars.com/kata/5672a98bdbdd995fad00000f/train/php
 
 */
 
-function rpc($p1, $p2) {
+function rpc(string $p1, string $p2): string
+{
     if ($p1 === $p2) return "Draw!";
 
     if ($p1 == "scissors" && $p2 == "paper" ||
