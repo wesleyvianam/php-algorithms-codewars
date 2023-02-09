@@ -11,7 +11,7 @@ kata Traning: https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/php
 
 */
 
-function basicOp($op, $val1, $val2)
+function basicOp(string $op, int $val1, int $val2): int
 {
     switch ($op) {
         case '+':
