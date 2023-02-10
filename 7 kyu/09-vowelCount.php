@@ -12,7 +12,7 @@ The input string will only consist of lower case letters and/or spaces.
 
 */
 
-function getCount($str): int
+function getCount(string $str): int
 {
   return preg_match_all('/[aeiou]/i', $str);
 }
