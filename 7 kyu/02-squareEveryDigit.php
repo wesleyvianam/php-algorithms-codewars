@@ -12,7 +12,7 @@ Note: The function accepts an integer and returns an integer
 
 */
 
-function square_digits($num): int 
+function square_digits(int $num): int 
 {
     $result = [];
     $numbers = str_split(strval($num));
