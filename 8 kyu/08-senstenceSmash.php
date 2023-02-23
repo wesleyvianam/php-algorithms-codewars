@@ -8,6 +8,8 @@ and returns the sentence. You can ignore any need to sanitize words or add punct
 but you should add spaces between each word. Be careful, there shouldn't be a space at 
 the beginning or the end of the sentence!
 
+Kata Training: 
+
 */
 
 function smash(array $words): string 
