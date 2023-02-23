@@ -17,4 +17,4 @@ function smash(array $words): string
     return implode(' ', $words);
 }
 
-echo smash(["hello", "world"]);
+echo smash(["hello", "world", "apple"]);
