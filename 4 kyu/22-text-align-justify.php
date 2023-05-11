@@ -17,6 +17,7 @@ Large gaps go first, then smaller ones ('Lorem--ipsum--dolor--sit-amet,' (2, 2, 
 Last line should not be justified, use only one space between words.
 Last line should not contain '\n'
 Strings with one word do not need gaps ('somelongword\n').
+
 Example with width=30:
 
 Kata Training: https://www.codewars.com/kata/537e18b6147aa838f600001b/train/php
@@ -47,6 +48,6 @@ function justify($str, $len) {
 }
 
 $str = "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries";
-$len = 30;
+$len = 15;
 
 echo justify($str, $len);
