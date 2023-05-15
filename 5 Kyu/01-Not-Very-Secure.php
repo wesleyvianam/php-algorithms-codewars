@@ -12,18 +12,11 @@ No whitespaces / underscore
 
 */
 
-function alphanumeric(string $s)
+function alphanumeric(string $s): bool
 {
-    if ($s == null || $s == "" || $s == 'nil' || $s == 'NULL' || $s == 'None') {
-        return false;
-    }
-
-    if (!ctype_alnum($s)) {
-        return false;
-    }
-
-    return true;
+    return ctype_alnum($s);
 }
 
-$str = true;
+$str = "Hello 351";
+
 echo alphanumeric($str);
