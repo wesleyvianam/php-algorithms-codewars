@@ -17,7 +17,7 @@ function accum($str) {
     $result = [];
 
     foreach (str_split($str) as $key => $s) {
-        $result[] = strtoupper($s) . str_repeat($s, $key);
+        $result[] = strtoupper($s) . strtolower(str_repeat($s, $key));
     }
 
     return implode('-', $result);
